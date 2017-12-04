@@ -1,0 +1,309 @@
+//Defining font files
+@font-face {
+	font-family: 'pns-bold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../public/fonts/proximanovasoft-bold.ttf');
+	src: url('../public/fonts/proximanovasoft-bold.otf');
+	src: url('../public/fonts/proximanovasoft-bold.eot') format('embedded-opentype');
+	src: url('../public/fonts/proximanovasoft-bold.otf');
+	src: url('../public/fonts/proximanovasoft-bold.svg') format('svg');
+	src: url('../public/fonts/proximanovasoft-bold.woff') format('woff');
+	src: url('../public/fonts/proximanovasoft-bold.woff2');
+}
+
+@font-face {
+	font-family: 'pns-regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../public/fonts/proximanovasoft-regular.ttf');
+	src: url('../public/fonts/proximanovasoft-regular.otf');
+	src: url('../public/fonts/proximanovasoft-regular.eot') format('embedded-opentype');
+	src: url('../public/fonts/proximanovasoft-regular.otf');
+	src: url('../public/fonts/proximanovasoft-regular.svg') format('svg');
+	src: url('../public/fonts/proximanovasoft-regular.woff') format('woff');
+	src: url('../public/fonts/proximanovasoft-regular.woff2');
+}
+
+@font-face {
+	font-family: 'pns-medium';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../public/fonts/proximanovasoft-medium.ttf');
+	src: url('../public/fonts/proximanovasoft-medium.otf');
+	src: url('../public/fonts/proximanovasoft-medium.eot') format('embedded-opentype');
+	src: url('../public/fonts/proximanovasoft-medium.otf');
+	src: url('../public/fonts/proximanovasoft-medium.svg') format('svg');
+	src: url('../public/fonts/proximanovasoft-medium.woff') format('woff');
+	src: url('../public/fonts/proximanovasoft-medium.woff2');
+}
+
+@font-face {
+	font-family: 'pns-semibold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../public/fonts/proximanovasoft-semibold.ttf');
+	src: url('../public/fonts/proximanovasoft-semibold.otf');
+	src: url('../public/fonts/proximanovasoft-semibold.eot') format('embedded-opentype');
+	src: url('../public/fonts/proximanovasoft-semibold.otf');
+	src: url('../public/fonts/proximanovasoft-semibold.svg') format('svg');
+	src: url('../public/fonts/proximanovasoft-semibold.woff') format('woff');
+	src: url('../public/fonts/proximanovasoft-semibold.woff2');
+}
+
+@font-face {
+	font-family: 'xsp-bold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../public/fonts/XenoisSoftProBold.ttf');
+	src: url('../public/fonts/XenoisSoftProBold.otf');
+	src: url('../public/fonts/XenoisSoftProBold.eot') format('embedded-opentype');
+	src: url('../public/fonts/XenoisSoftProBold.otf');
+	src: url('../public/fonts/XenoisSoftProBold.svg') format('svg');
+	src: url('../public/fonts/XenoisSoftProBold.woff') format('woff');
+	src: url('../public/fonts/XenoisSoftProBold.woff2');
+}
+//--------------------------------------- Font Files ends here ---------------------- >
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../public/fonts/icomoon/icomoon.eot?22irl1');
+  src:  url('../public/fonts/icomoon/icomoon.eot?22irl1#iefix') format('embedded-opentype'),
+    url('../public/fonts/icomoon/icomoon.ttf?22irl1') format('truetype'),
+    url('../public/fonts/icomoon/icomoon.woff?22irl1') format('woff'),
+    url('../public/fonts/icomoon/icomoon.svg?22irl1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-uparrow:before {
+  content: "\e937";
+}
+.icon-downarrow:before {
+  content: "\e938";
+}
+.icon-star-filled:before {
+  content: "\e935";
+}
+.icon-star-unfilled:before {
+  content: "\e936";
+}
+.icon-ic_noshipments .path1:before {
+  content: "\e921";
+  color: rgb(54, 74, 79);
+}
+.icon-ic_noshipments .path2:before {
+  content: "\e922";
+  margin-left: -1.0322265625em;
+  color: rgb(253, 91, 67);
+}
+.icon-ic_noshipments .path3:before {
+  content: "\e923";
+  margin-left: -1.0322265625em;
+  color: rgb(54, 74, 79);
+}
+.icon-ic_noshipments .path4:before {
+  content: "\e924";
+  margin-left: -1.0322265625em;
+  color: rgb(253, 91, 67);
+}
+.icon-ic_noshipments .path5:before {
+  content: "\e925";
+  margin-left: -1.0322265625em;
+  color: rgb(253, 91, 67);
+}
+.icon-ic_noshipments .path6:before {
+  content: "\e926";
+  margin-left: -1.0322265625em;
+  color: rgb(54, 74, 79);
+}
+.icon-ic_noshipments .path7:before {
+  content: "\e927";
+  margin-left: -1.0322265625em;
+  color: rgb(54, 74, 79);
+}
+.icon-ic_noshipments .path8:before {
+  content: "\e928";
+  margin-left: -1.0322265625em;
+  color: rgb(54, 74, 79);
+}
+.icon-ic_noshipments .path9:before {
+  content: "\e929";
+  margin-left: -1.0322265625em;
+  color: rgb(54, 74, 79);
+}
+.icon-ic_noshipments .path10:before {
+  content: "\e92a";
+  margin-left: -1.0322265625em;
+  color: rgb(54, 74, 79);
+}
+.icon-ic_noshipments .path11:before {
+  content: "\e92b";
+  margin-left: -1.0322265625em;
+  color: rgb(54, 74, 79);
+}
+.icon-ic_noshipments .path12:before {
+  content: "\e92c";
+  margin-left: -1.0322265625em;
+  color: rgb(54, 74, 79);
+}
+.icon-ic_noshipments .path13:before {
+  content: "\e92d";
+  margin-left: -1.0322265625em;
+  color: rgb(54, 74, 79);
+}
+.icon-ic_noshipments .path14:before {
+  content: "\e92e";
+  margin-left: -1.0322265625em;
+  color: rgb(54, 74, 79);
+}
+.icon-ic_nothingtocarry .path1:before {
+  content: "\e92f";
+  color: rgb(54, 74, 79);
+}
+.icon-ic_nothingtocarry .path2:before {
+  content: "\e930";
+  margin-left: -1.0322265625em;
+  color: rgb(253, 91, 67);
+}
+.icon-ic_nothingtocarry .path3:before {
+  content: "\e931";
+  margin-left: -1.0322265625em;
+  color: rgb(54, 74, 79);
+}
+.icon-ic_nothingtocarry .path4:before {
+  content: "\e932";
+  margin-left: -1.0322265625em;
+  color: rgb(253, 91, 67);
+}
+.icon-ic_nothingtocarry .path5:before {
+  content: "\e933";
+  margin-left: -1.0322265625em;
+  color: rgb(253, 91, 67);
+}
+.icon-ic_nothingtocarry .path6:before {
+  content: "\e934";
+  margin-left: -1.0322265625em;
+  color: rgb(54, 74, 79);
+}
+.icon-star-outline:before {
+  content: "\e900";
+}
+.icon-star:before {
+  content: "\e901";
+}
+.icon-pass-visible:before {
+  content: "\e902";
+}
+.icon-notification-indicator:before {
+  content: "\e903";
+}
+.icon-notification:before {
+  content: "\e904";
+}
+.icon-item-notification:before {
+  content: "\e905";
+}
+.icon-info:before {
+  content: "\e906";
+}
+.icon-down-arrow-outline:before {
+  content: "\e907";
+}
+.icon-email:before {
+  content: "\e908";
+}
+.icon-down-arrow-filled:before {
+  content: "\e909";
+}
+.icon-green-tick .path1:before {
+  content: "\e90a";
+  color: rgb(0, 218, 156);
+}
+.icon-green-tick .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-pencil:before {
+  content: "\e90c";
+}
+.icon-clock:before {
+  content: "\e90d";
+}
+.icon-unchecked:before {
+  content: "\e90e";
+}
+.icon-facebook:before {
+  content: "\e90f";
+}
+.icon-checked .path1:before {
+  content: "\e910";
+  color: rgb(253, 91, 67);
+}
+.icon-checked .path2:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-checkbox:before {
+  content: "\e912";
+}
+.icon-pagenitions-selected:before {
+  content: "\e913";
+}
+.icon-pagenition:before {
+  content: "\e914";
+}
+.icon-check:before {
+  content: "\e915";
+}
+.icon-chat-bubble-white:before {
+  content: "\e916";
+}
+.icon-chat-bubble-green:before {
+  content: "\e917";
+}
+.icon-profile:before {
+  content: "\e918";
+}
+.icon-cash-in-hand:before {
+  content: "\e919";
+}
+.icon-button:before {
+  content: "\e91a";
+}
+.icon-pass:before {
+  content: "\e91b";
+}
+.icon-close:before {
+  content: "\e91c";
+}
+.icon-calendar:before {
+  content: "\e91d";
+}
+.icon-box-front:before {
+  content: "\e91e";
+}
+.icon-cross-feather:before {
+  content: "\e920";
+}
+.icon-three-bars:before {
+  content: "\e91f";
+}
